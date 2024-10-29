@@ -10,44 +10,54 @@ experienceLevel:
 
 jobTypes:
   full-time: true
-  contract: false
+  contract: true
   part-time: false
-  temporary: true
+  temporary: false
   internship: false
   other: false
-  volunteer: true
+  volunteer: false
 
 date:
   all time: false
   month: false
-  week: false
+  week: true
   24 hours: true
 
 positions:
-  - Software engineer
+  - Product Manager
+  - Product Owner
+  - Technical Product Manager
+  - Project Manager
+  - Program Manager
+  - Technical Program Manager
 
 locations:
-  - Germany
+  - United States
 
 apply_once_at_company: true
 
-distance: 100
+distance: 500
 
 company_blacklist:
-  - wayfair
-  - Crossover
+  - Google
+  - Amazon
 
 title_blacklist:
-  - word1
-  - word2
+  - Sales
+  - Marketing
+  - Trainee
 
 location_blacklist:
   - Brazil
+  - Mexico
+  - London
+  - Germany
+  - India
 
 job_applicants_threshold:
   min_applicants: 0
-  max_applicants: 30
+  max_applicants: 50
 
 llm_model_type: openai
 llm_model: 'gpt-4o-mini'
-# llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
+llm_api_url: 'https://api.pawan.krd/cosmosrp/v1'
